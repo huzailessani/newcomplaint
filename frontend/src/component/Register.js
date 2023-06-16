@@ -301,7 +301,7 @@ const Register = () => {
         const { name, email, city, complain } = complaint;
 
         try {
-            const response = await fetch('https://newcomplaint-s5tpj1kyu-huzailessani.vercel.app/c/complaint', {
+            const response = await fetch('https://newcomplaint-api.vercel.app/c/complaint', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -85,7 +85,7 @@ const Review = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('https://newcomplaint-s5tpj1kyu-huzailessani.vercel.app/c/complaint');
+                const response = await axios.get('https://newcomplaint-api.vercel.app/c/complaint');
                 setComplaintData(response.data);
             } catch (error) {
                 console.log(error);
